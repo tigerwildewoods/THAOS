@@ -1,0 +1,1 @@
+Place image and map files here. Recommended sizes: maps 2000px+, images 1200px wide.

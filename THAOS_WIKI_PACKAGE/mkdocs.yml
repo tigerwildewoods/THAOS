@@ -1,0 +1,26 @@
+site_name: THAOS Wiki
+site_description: A worldbuilding wiki for the THAOS project.
+site_author: tigerwildewoods
+repo_name: tigerwildewoods/THAOS
+nav:
+  - Home: index.md
+  - Overview:
+      - Introduction: docs/overview/introduction.md
+      - Timeline: docs/overview/timeline.md
+  - Characters:
+      - Index: docs/characters/index.md
+  - Locations:
+      - Index: docs/locations/index.md
+  - Systems:
+      - Index: docs/systems/index.md
+  - Designs:
+      - Index: docs/designs/index.md
+  - Assets: docs/assets.md
+  - Contributing: docs/contributing.md
+theme:
+  name: material
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.superfences
