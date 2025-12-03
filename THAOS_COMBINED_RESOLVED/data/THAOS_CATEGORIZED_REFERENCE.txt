@@ -1,0 +1,89 @@
+
+THAOS_CATEGORIZED Reference Guide
+=================================
+
+This document explains the structure, purpose, and usage of the file
+THAOS_CATEGORIZED.txt. Use this file as a reference after a memory wipe
+to understand what the categorized codex contains and how it was generated.
+
+-------------------------------------
+1. PURPOSE OF THAOS_CATEGORIZED.TXT
+-------------------------------------
+
+THAOS_CATEGORIZED.txt contains all lines from the cleaned and deduplicated
+master codex (THAOS_MASTER_COMBINED_DEDUPE.txt) that could be matched to 
+specific worldbuilding categories. This file organizes the extracted lore 
+into major thematic groups to make it easier to navigate, analyze, and expand.
+
+The categorized sections rely on a keyword-based heuristic system.
+
+-------------------------------------
+2. INCLUDED CATEGORIES
+-------------------------------------
+
+The following categories exist in THAOS_CATEGORIZED.txt:
+
+• Geography & Locations
+• Characters & Factions
+• Magic Systems
+• Artifacts & Items
+• History & Timeline
+• Races & Species
+• Religion & Mythology
+• Politics & Culture
+• Technology & Craft
+
+Each section contains all lines from the source text that matched one or more 
+keywords associated with that category.
+
+-------------------------------------
+3. WHAT IS NOT INCLUDED
+-------------------------------------
+
+THAOS_CATEGORIZED.txt does NOT include:
+
+• Lines that did not match any known category keywords
+• Larger contextual paragraphs (classification was performed line-by-line)
+• Miscellaneous or ambiguous lore elements
+
+These missing pieces still exist in the document:
+THAOS_MASTER_COMBINED_DEDUPE.txt
+
+-------------------------------------
+4. HOW TO RECONSTRUCT THE CATEGORIZED FILE AFTER A WIPE
+-------------------------------------
+
+To regenerate THAOS_CATEGORIZED.txt:
+
+1. Load the master file:
+   THAOS_MASTER_COMBINED_DEDUPE.txt
+
+2. Apply category keyword matching for each line:
+   - Geography: mountain, city, forest, river, realm, etc.
+   - Characters/Factions: king, hero, guild, tribe, army, etc.
+   - Magic: spell, ritual, mana, arcane, elemental, etc.
+   - Artifacts: weapon, relic, amulet, legendary, etc.
+   - History: war, age, era, battle, ancient, etc.
+   - Races: elf, beast, dwarf, creature, species, etc.
+   - Religion: god, temple, priest, holy, deity, etc.
+   - Politics: kingdom, empire, law, custom, nation, etc.
+   - Technology: forge, machine, construct, mechanism, craft, etc.
+
+3. Sort lines into their matching sections.
+
+4. Export as THAOS_CATEGORIZED.txt.
+
+-------------------------------------
+5. PURPOSE OF THIS REFERENCE FILE
+-------------------------------------
+
+This reference file allows you to:
+
+• Recreate the categorized codex after a memory wipe
+• Understand the logic behind the categorization
+• Modify or expand category rules in the future
+• Maintain consistency across future processing steps
+
+-------------------------------------
+END OF DOCUMENT
+-------------------------------------

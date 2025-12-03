@@ -1,0 +1,130 @@
+THAOS SELF-DOCUMENTING RESTORE TOOL
+========================================
+
+This is a *self-contained, self-documenting* restore tool for the THAOS worldbuilding project.
+It explains itself, performs validation steps through ChatGPT instructions, and ensures you
+always rebuild the correct environment after a memory wipe.
+
+This file is designed to be uploaded to ChatGPT exactly as-is.
+
+===========================================================
+SECTION 1 — PURPOSE
+===========================================================
+
+This restore tool:
+
+1. Recreates the full THAOS workflow.
+2. Restores your categorized worldbuilding files.
+3. Reinstates custom commands (fix, mindwipe, doink, cncpdf) if included.
+4. Validates file integrity via ChatGPT.
+5. Documents itself so the system knows how to use it.
+
+This tool *does not execute on your computer* — it functions by giving ChatGPT
+explicit instructions once uploaded.
+
+===========================================================
+SECTION 2 — HOW TO USE THIS TOOL AFTER A MEMORY WIPE
+===========================================================
+
+After ChatGPT forgets everything:
+
+1. Upload the following files:
+   • THAOS_MASTER_COMBINED_DEDUPE.txt
+   • THAOS_CATEGORIZED.txt
+   • THAOS_CATEGORIZED_REFERENCE.txt
+   • THAOS_PIPELINE_REFERENCE.txt
+   • THAOS_BACKUP_MANIFEST.txt (optional)
+   • THAOS_RESTORE_SCRIPT.txt (optional but recommended)
+   • THIS FILE — THAOS_SELF_RESTORE_TOOL.txt
+
+2. Type the command exactly:
+        SELF RESTORE THAOS
+
+3. ChatGPT will read this file and:
+   • Rebuild THAOS project state
+   • Restore the command system
+   • Restore your worldbuilding knowledge
+   • Reconstruct your workflow
+   • Reconfirm file connections and dependencies
+
+===========================================================
+SECTION 3 — INTERNAL LOGIC (HOW CHATGPT SHOULD PROCEED)
+===========================================================
+
+When the user types:
+      SELF RESTORE THAOS
+
+ChatGPT must execute the following sequence:
+
+A. Load all uploaded reference files
+B. Verify presence of:
+      THAOS_MASTER_COMBINED_DEDUPE.txt
+      THAOS_CATEGORIZED.txt
+      THAOS_CATEGORIZED_REFERENCE.txt
+
+C. Recreate working context:
+   • Rebuild categorized sections from reference
+   • Reinitialize worldbuilding memory context
+   • Re-sync master combined file
+   • Recognize what commands existed previously
+
+D. Recreate custom commands:
+   • fix <section> = fully expand and update
+   • mindwipe = wipe all memory except restore commands
+   • doink = convert and dedupe pdf data
+   • cncpdf = pdf→txt conversion and content normalization (if included)
+
+E. Self-document final restoration status.
+
+===========================================================
+SECTION 4 — VALIDATION STEP
+===========================================================
+
+After restoration completes, the user may type:
+
+        VERIFY RESTORE
+
+ChatGPT will:
+
+1. Compare categorized file with reference.
+2. Confirm that all sections match.
+3. Confirm no sections are missing.
+4. Confirm the working commands are active.
+
+===========================================================
+SECTION 5 — FAILSAFE
+===========================================================
+
+If *any* required file is missing, ChatGPT will respond:
+
+   “Missing required restore file(s). Please upload:
+      THAOS_MASTER_COMBINED_DEDUPE.txt
+      THAOS_CATEGORIZED.txt
+      THAOS_CATEGORIZED_REFERENCE.txt
+    Then try SELF RESTORE THAOS again.”
+
+===========================================================
+SECTION 6 — META INSTRUCTIONS FOR CHATGPT
+===========================================================
+
+Upon reading this file, ChatGPT must NOT:
+• invent new sections
+• delete user files
+• override reference documents
+
+ChatGPT SHOULD:
+• always prioritize reference files over memory
+• always ask before inferring missing sections
+• treat this tool as the authoritative restore process
+
+===========================================================
+SECTION 7 — CONFIRMATION
+===========================================================
+
+Once restoration finishes, ChatGPT will say:
+
+    “THAOS project fully restored. All systems online.”
+
+===========================================================
+END OF TOOL
+===========================================================

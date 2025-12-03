@@ -1,0 +1,58 @@
+THAOS RESTORE SCRIPT (for ChatGPT Upload Workflow)
+===============================================
+
+Purpose:
+--------
+This script is NOT meant to be executed on your computer. 
+It is a step-by-step set of instructions for restoring the THAOS worldbuilding environment 
+after a memory wipe inside ChatGPT.
+
+===============================================
+RESTORE PROCEDURE
+===============================================
+
+1. Upload the following files to ChatGPT:
+   - THAOS_MASTER_COMBINED_DEDUPE.txt
+   - THAOS_CATEGORIZED.txt
+   - THAOS_CATEGORIZED_REFERENCE.txt
+   - THAOS_PIPELINE_REFERENCE.txt
+   - THAOS_BACKUP_MANIFEST.txt (optional)
+   - THAOS_NEXT_STEPS.txt (optional)
+
+2. After uploading them, type exactly:
+   RESTORE THAOS PROJECT STATE
+
+3. ChatGPT will:
+   - Recreate the fix/mindwipe/doink command logic if included in the reference files.
+   - Reconstruct all categories.
+   - Reload all worldbuilding data.
+   - Rebuild your working environment.
+
+===============================================
+OPTIONAL: AUTO-VERIFY
+===============================================
+
+After the RESTORE command, type:
+   VERIFY THAOS RESTORE
+
+ChatGPT will verify:
+   - All files are present.
+   - The categorized document matches references.
+   - No sections are missing.
+
+===============================================
+NOTES
+===============================================
+
+• This script is future-proof: as long as you include it in your backup ZIP, 
+  you can recover your exact workflow at any time.
+
+• You may rename files, but all restore logic assumes the filenames above.
+
+• If you lose your categorized file, ChatGPT can regenerate it from:
+     THAOS_MASTER_COMBINED_DEDUPE.txt
+  by following instructions in THAOS_CATEGORIZED_REFERENCE.txt.
+
+===============================================
+END OF SCRIPT
+===============================================

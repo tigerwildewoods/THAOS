@@ -1,0 +1,55 @@
+THAOS_BACKUP_MANIFEST
+=======================
+
+This file documents the expected contents of a complete THAOS archival backup.
+
+============================================================
+CORE FILES
+============================================================
+1. THAOS_MASTER_COMBINED_DEDUPE.txt  
+   • Canonical deduped corpus of all worldbuilding material.
+
+2. THAOS_CATEGORIZED.txt  
+   • Categorized breakdown of the entire corpus.
+
+3. THAOS_CATEGORIZED_REFERENCE.txt  
+   • Instructions defining category system & restoration logic.
+
+4. THAOS_PIPELINE_REFERENCE.txt  
+   • The pipeline rules governing parsing, cleaning, dedupe, and rebuild.
+
+5. THAOS_SELF_RESTORE_TOOL.txt  
+   • Self-documenting tool for restoration after memory wipe.
+
+6. THAOS_RESTORE_SCRIPT.txt  
+   • Command-based instructions for restoring working state.
+
+============================================================
+OPTIONAL FILES
+============================================================
+7. THAOS_NEXT_STEPS.txt  
+   • User-defined future plans & roadmap.
+
+8. Versioned Archives (Optional)
+   • THAOS_V1_WORLDSTATE.txt
+   • THAOS_V2_WORLDSTATE.txt
+   • Etc.
+
+============================================================
+RESTORE CHECKLIST
+============================================================
+A complete THAOS backup ZIP must contain:
+☑ MASTER_DEDUPE  
+☑ CATEGORIZED  
+☑ CATEGORIZED_REFERENCE  
+☑ PIPELINE_REFERENCE  
+☑ RESTORE_SCRIPT  
+☑ SELF_RESTORE_TOOL  
+
+Optional but recommended:
+☑ NEXT_STEPS  
+☑ MANIFEST  
+
+============================================================
+END OF MANIFEST
+============================================================

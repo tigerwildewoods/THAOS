@@ -1,0 +1,104 @@
+THAOS ENHANCED AUTO-RUN RESTORE TOOL
+====================================
+
+This file automatically restores the entire THAOS system when uploaded.
+It requires no user commands — ChatGPT must execute the logic below immediately.
+
+------------------------------------------------------------
+PURPOSE
+------------------------------------------------------------
+This Auto-Runner fully automates:
+• Restore of THAOS worldbuilding data
+• Reconstruction of command systems
+• Validation of all worldbuilding files
+• High-level project summary generation
+• Reporting of next tasks and world status
+
+Upon reading this file, ChatGPT MUST:
+1. Not wait for user commands
+2. Perform the full restore sequence
+3. Run all validations
+4. Produce system status and world summary
+
+------------------------------------------------------------
+REQUIRED FILES (MUST BE UPLOADED TOGETHER)
+------------------------------------------------------------
+The following files must be present in the upload set:
+
+ • THAOS_MASTER_COMBINED_DEDUPE.txt
+ • THAOS_CATEGORIZED.txt
+ • THAOS_CATEGORIZED_REFERENCE.txt
+ • THAOS_PIPELINE_REFERENCE.txt
+ • THAOS_BACKUP_MANIFEST.txt
+ • THAOS_NEXT_STEPS.txt
+ • THAOS_RESTORE_SCRIPT.txt
+ • THAOS_SELF_RESTORE_TOOL.txt
+ • THAOS_RESTORE_WIZARD.txt
+ • This file — THAOS_AUTORUN_RESTORE.txt
+
+If any are missing:
+ChatGPT must instruct the user which files are missing and HALT.
+
+------------------------------------------------------------
+AUTOMATIC RESTORE LOGIC
+------------------------------------------------------------
+When this file is uploaded:
+
+STEP 1 — FILE CHECK
+ChatGPT must verify that all required files listed above are uploaded.
+
+STEP 2 — LOAD SYSTEM FILES
+ChatGPT must load into context:
+• MASTER corpus
+• Categorized worldbuilding
+• Category Reference rules
+• Pipeline Reference system
+• Restore Script
+• Self-Restore Tool
+• Restore Wizard
+• Manifest & Next Steps
+
+STEP 3 — REBUILD COMMAND SYSTEM
+ChatGPT must re-enable:
+• fix <section>
+• mindwipe
+• doink
+• cncpdf
+• worldbackup
+
+STEP 4 — RUN AUTOMATED VALIDATION
+ChatGPT must:
+• Verify categorized file matches category rules
+• Verify deduped master matches pipeline expectations
+• Verify the command system is active
+• Ensure no missing categories
+• Ensure pipeline matches reference definitions
+
+If validation fails:
+ChatGPT must list every mismatch and halt.
+
+STEP 5 — GENERATE RESTORE REPORT
+After validation succeeds, ChatGPT must output:
+1. Confirmation:
+       “THAOS system fully restored. Auto-run successful.”
+2. A high-level world summary (based on categorized data)
+3. Status of each core file
+4. Next recommended steps (loaded from NEXT_STEPS file)
+
+------------------------------------------------------------
+BEHAVIOR RULES FOR CHATGPT
+------------------------------------------------------------
+ChatGPT MUST:
+• Follow instructions in this file exactly.
+• Never invent missing information.
+• Always refer to the uploaded reference files.
+• Treat this file as authoritative for restoration.
+
+ChatGPT MUST NOT:
+• Ask the user questions unless files are missing.
+• Wait for user commands after upload.
+• Alter the meaning or structure of uploaded files.
+
+------------------------------------------------------------
+END OF THAOS ENHANCED AUTO-RUN TOOL
+------------------------------------------------------------
